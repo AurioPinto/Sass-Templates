@@ -11,8 +11,8 @@ body page {
 }
 
 body page[size="A4"] {
-  width: 31cm;
-  height: 50.7cm;
+  width: 595px;
+  height: 842px;
 }
 
 body page[size="A4"][layout="portrait"] {
@@ -35,7 +35,7 @@ body .box #left {
   background-color: #00263c;
   float: left;
   width: 20%;
-  height: 1916px;
+  height: 860px;
 }
 
 body .box #right {
