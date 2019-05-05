@@ -46,20 +46,21 @@ body .box #right {
   padding: 15px 10px 0;
 }
 
-body .box #right .img {
-  width: 20px;
-  height: 20px;
+body .box #right .text {
+  text-align: center;
+  font-size: smaller;
 }
 
-body .box #right .img .info {
-  display: flex;
-  padding: 10px 0 5px;
-  align-items: center;
+body .box #right .text h1 {
+  font-size: larger;
 }
 
-body .box #right .img .info1 {
+body .box #right .info {
   display: flex;
-  align-items: center;
-  padding: 10px 0 5px;
   justify-content: space-around;
+  font-size: 10px;
+}
+
+body .box #right .info {
+  border-bottom: 1px solid #00263c;
 }

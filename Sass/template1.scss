@@ -37,20 +37,20 @@ body {
             width: 80%;
             height: 1916px;
             padding: 15px 10px 0;
-            .img {
-                width: 20px;
-                height: 20px;
-                .info {
-                    display: flex;
-                    padding: 10px 0 5px;
-                    align-items: center;
+            .text {
+                text-align: center;
+                font-size: smaller;
+                h1 {
+                    font-size: larger;
                 }
-                .info1 {
-                    display: flex;
-                    align-items: center;
-                    padding: 10px 0 5px;
-                    justify-content: space-around;
-                }
+            }
+            .info {
+                display: flex;
+                justify-content: space-around;
+                font-size: 10px;
+            }
+            .info {
+                border-bottom: 1px solid #00263c;
             }
         }
     }
