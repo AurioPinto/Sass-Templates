@@ -1,25 +1,25 @@
- *, *::before, *::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-$font-stack: Helvetica,
-sans-serif;
-$primary-color: #333;
-html {
-    font-size: 62.5%
-    font: 100% $font-stack;
-    color: $primary-color;
-   
-    @media (min-width: 500px) {
-        font-size: 50%
-        body {
-            background-color: red;
-        }
-    }
-    @media (max-width: 499px) {
-        body {
-            background-color: blue;
-        }
-    }
-}
+ *,
+ *::before,
+ *::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ $font-stack: Helvetica,
+ sans-serif;
+ $primary-color: #333;
+ html {
+     font-size: 62.5% font: 100% $font-stack;
+     color: $primary-color;
+     @media (min-width: 500px) {
+         font-size: 50% body {
+             background-color: red;
+         }
+     }
+     @media (max-width: 499px) {
+         body {
+             background-color: blue;
+         }
+     }
+ }
